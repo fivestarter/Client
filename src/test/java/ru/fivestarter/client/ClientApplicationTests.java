@@ -1,4 +1,4 @@
-package ru.fivestarter.Client;
+package ru.fivestarter.client;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

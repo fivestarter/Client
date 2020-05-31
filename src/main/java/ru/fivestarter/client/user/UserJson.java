@@ -1,6 +1,8 @@
 package ru.fivestarter.client.user;
 
-public class UserJson {
+import java.io.Serializable;
+
+public class UserJson implements Serializable {
     private String firstName;
     private String lastName;
 

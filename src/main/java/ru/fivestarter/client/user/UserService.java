@@ -17,6 +17,10 @@ public class UserService {
     }
 
     public UserJson getUser() {
-        return webClient.get().uri("/").retrieve().bodyToMono(UserJson.class).block();
+        return webClient.get()
+                .uri("/")
+                .retrieve()
+                .bodyToMono(UserJson.class)
+                .block();
     }
 }

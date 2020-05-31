@@ -44,6 +44,15 @@
 			<version>1.0.1.RELEASE</version>
 		</dependency>
 
+		<!-- https://mvnrepository.com/artifact/org.wicketstuff/wicketstuff-lambda-components -->
+		<dependency>
+			<groupId>org.wicketstuff</groupId>
+			<artifactId>wicketstuff-lambda-components</artifactId>
+			<version>8.6.0</version>
+		</dependency>
+
+
+
 	</dependencies>
 
 	<build>

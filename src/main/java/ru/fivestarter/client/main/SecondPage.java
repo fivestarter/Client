@@ -1,16 +1,17 @@
 package ru.fivestarter.client.main;
 
-import org.apache.wicket.ajax.markup.html.form.AjaxButton;
 import org.apache.wicket.markup.html.WebPage;
 import org.apache.wicket.markup.html.basic.Label;
 import org.apache.wicket.model.CompoundPropertyModel;
 import org.apache.wicket.model.IModel;
 import org.apache.wicket.model.Model;
 import org.apache.wicket.spring.injection.annot.SpringBean;
+import org.wicketstuff.annotation.mount.MountPath;
 import org.wicketstuff.lambda.components.ComponentFactory;
 
 import ru.fivestarter.client.user.UserService;
 
+@MountPath("second")
 public class SecondPage extends WebPage {
 
     private final IModel<String> labelModel = Model.of("Hello WicketWorld!");

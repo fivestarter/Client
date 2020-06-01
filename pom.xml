@@ -51,7 +51,12 @@
 			<version>8.6.0</version>
 		</dependency>
 
-
+		<!-- https://mvnrepository.com/artifact/org.wicketstuff/wicketstuff-annotation -->
+		<dependency>
+			<groupId>org.wicketstuff</groupId>
+			<artifactId>wicketstuff-annotation</artifactId>
+			<version>8.6.0</version>
+		</dependency>
 
 	</dependencies>
 
